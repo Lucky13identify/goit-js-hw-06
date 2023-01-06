@@ -47,8 +47,3 @@ buttonDestroy.addEventListener("click", destroyBoxes);
 // // Размеры самого первого <div> - 30px на 30px.
 // // Каждый элемент после первого, должен быть шире и
 // // выше предыдущего на 10px.
-
-// const numberPx = Number.parseInt("30px");
-// const plus = numberPx + 10;
-
-// console.log(plus);
