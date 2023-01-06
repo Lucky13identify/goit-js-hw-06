@@ -36,6 +36,7 @@ const createBoxes = (amount) => {
 // // Функция все удаляет
 
 const destroyBoxes = () => {
+  document.location.reload();
   divBoxes.remove();
 };
 
