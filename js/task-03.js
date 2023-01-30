@@ -26,5 +26,7 @@ const arrayImage = images
   })
   .join(" ");
 
+console.log(arrayImage);
+
 // Добавляем перебраный массив в gallery
 listGallery.insertAdjacentHTML("afterbegin", arrayImage);

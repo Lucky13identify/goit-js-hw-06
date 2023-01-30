@@ -9,11 +9,12 @@ const password = document.querySelector("[type=password]");
 
 const formSubmit = (event) => {
   event.preventDefault();
-
-  event.currentTarget.elements.email.value === "" ||
-  event.currentTarget.elements.password.value === ""
-    ? alert("Заполните все поля для ввода данных!")
-    : null;
+  if (
+    event.currentTarget.elements.email.value === "" ||
+    event.currentTarget.elements.password.value === ""
+  ) {
+    return alert("Заполните все поля для ввода данных!");
+  }
 
   const dataUserInfo = {};
   const email = event.currentTarget.elements.email.value;
